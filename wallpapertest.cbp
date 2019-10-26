@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wallpapertest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/wallpapertest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/wallpapertest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="arbre.cpp" />
+		<Unit filename="arbre.h" />
+		<Unit filename="astre.cpp" />
+		<Unit filename="astre.h" />
+		<Unit filename="cercle.cpp" />
+		<Unit filename="cercle.h" />
+		<Unit filename="champignon.cpp" />
+		<Unit filename="champignon.h" />
+		<Unit filename="ciel.cpp" />
+		<Unit filename="ciel.h" />
+		<Unit filename="colline.cpp" />
+		<Unit filename="colline.h" />
+		<Unit filename="coords.cpp" />
+		<Unit filename="coords.h" />
+		<Unit filename="couleur.cpp" />
+		<Unit filename="couleur.h" />
+		<Unit filename="ellipse.cpp" />
+		<Unit filename="ellipse.h" />
+		<Unit filename="environnement.cpp" />
+		<Unit filename="environnement.h" />
+		<Unit filename="etoile.cpp" />
+		<Unit filename="etoile.h" />
+		<Unit filename="fleur.cpp" />
+		<Unit filename="fleur.h" />
+		<Unit filename="formes.cpp" />
+		<Unit filename="formes.h" />
+		<Unit filename="herbe.cpp" />
+		<Unit filename="herbe.h" />
+		<Unit filename="heure.cpp" />
+		<Unit filename="heure.h" />
+		<Unit filename="interface.cpp" />
+		<Unit filename="interface.h" />
+		<Unit filename="lune.cpp" />
+		<Unit filename="lune.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="montagne.cpp" />
+		<Unit filename="montagne.h" />
+		<Unit filename="nuage.cpp" />
+		<Unit filename="nuage.h" />
+		<Unit filename="plan.cpp" />
+		<Unit filename="plan.h" />
+		<Unit filename="plantes.cpp" />
+		<Unit filename="plantes.h" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="rectangle.h" />
+		<Unit filename="sol.cpp" />
+		<Unit filename="sol.h" />
+		<Unit filename="soleil.cpp" />
+		<Unit filename="soleil.h" />
+		<Unit filename="svgfile.cpp" />
+		<Unit filename="svgfile.h" />
+		<Unit filename="triangle.cpp" />
+		<Unit filename="triangle.h" />
+		<Unit filename="util.cpp" />
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

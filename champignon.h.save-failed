@@ -1,0 +1,30 @@
+#ifndef CHAMPIGNON_H_INCLUDED
+#define CHAMPIGNON_H_INCLUDED
+
+#include "plantes.h"
+#include "triangle.h"
+#include "ellipse.h"
+#include "cercle.h"
+
+class Champignon: public Plantes
+{
+public:
+    Champignon(std::mt19937& rg);
+
+    void afficher() const;
+    void dessiner(Svgfile& svgout);
+
+    void Translater(double coeff);
+    void TranslaterX(double consta);
+    void TranslaterY(double consta);
+
+    void Zoom(double coeff);
+
+private:
+    Cercle m_tete;
+    Ellipse m_bas;
+    Triangle m_tige;
+};
+
+
+#endif // CHAMPIGNON_H_INCLUDED
